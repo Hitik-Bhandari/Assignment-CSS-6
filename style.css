@@ -1,0 +1,138 @@
+body{
+    padding: 20px 80px;
+    background-image: url(./Images_CSSA6/shara\ desert.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 55px;
+    height: 55px;
+    /* margin: 30px 80px ; */
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    margin-right: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600px;
+    text-decoration: none;
+}
+@media screen and (max-width:640px) {
+    nav{
+        width: 500px;
+    }
+    main{
+        width: 500px;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+#menu{
+    width: 30px;
+    /* height: 25px; */
+    margin-right: 40px;
+    margin-left: -10px;
+}
+main{
+    display: flex;
+}
+.left-main{
+    color: white;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+}
+#p1{
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+#p2{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+button{
+    font-family:'Times New Roman', Times, serif;
+    width: 160px;
+    height: 35px;
+    color: black;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+}
+.grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.box1{
+    width: 170px;
+    height: 200px;
+    margin: 10px;
+    background-image: url(./Images_CSSA6/pic-1.png);
+    border: 0px;
+    border-radius: 15px;
+    transition: ease;
+    transition-duration: 1s;
+    color: white;
+    padding: 5px;
+}
+.box1:hover{
+    margin-top: 5px;
+}
+.box2:hover{
+    margin-top: 5px;
+}
+.box3:hover{
+    margin-top: 5px;
+}
+.box4:hover{
+    margin-top: 5px;
+}
+.box2{
+    width: 170px;
+    height: 200px;
+    margin: 10px;
+    background-image: url(./Images_CSSA6/pic-2.png);
+    border: 0px;
+    border-radius: 15px;
+    transition: ease;
+    transition-duration: 1s;
+    padding: 5px;
+    color: white;
+}
+.box3{
+    width: 170px;
+    height: 200px;
+    margin: 10px;
+    background-image: url(./Images_CSSA6/pic-3.png);
+    border: 0px;
+    border-radius: 15px;
+    transition: ease;
+    transition-duration: 1s;
+    padding: 5px;
+    color: white;
+}
+.box4{
+    width: 170px;
+    height: 200px;
+    margin: 10px;
+    background-image: url(./Images_CSSA6/pic-4.png);
+    border: 0px;
+    border-radius: 15px;
+    transition: ease;
+    transition-duration: 1s;
+    padding: 5px;
+    color: white;
+}
