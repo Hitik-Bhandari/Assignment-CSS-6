@@ -1,6 +1,6 @@
 body{
     padding: 20px 80px;
-    background-image: url(./Images_CSSA6/shara\ desert.jpg);
+    background-image: url(./shara\ desert.jpg);
     background-size: cover;
 }
 nav{
@@ -80,7 +80,7 @@ button{
     width: 170px;
     height: 200px;
     margin: 10px;
-    background-image: url(./Images_CSSA6/pic-1.png);
+    background-image: url(./pic-1.png);
     border: 0px;
     border-radius: 15px;
     transition: ease;
@@ -104,7 +104,7 @@ button{
     width: 170px;
     height: 200px;
     margin: 10px;
-    background-image: url(./Images_CSSA6/pic-2.png);
+    background-image: url(./pic-2.png);
     border: 0px;
     border-radius: 15px;
     transition: ease;
@@ -116,7 +116,7 @@ button{
     width: 170px;
     height: 200px;
     margin: 10px;
-    background-image: url(./Images_CSSA6/pic-3.png);
+    background-image: url(./pic-3.png);
     border: 0px;
     border-radius: 15px;
     transition: ease;
@@ -128,11 +128,12 @@ button{
     width: 170px;
     height: 200px;
     margin: 10px;
-    background-image: url(./Images_CSSA6/pic-4.png);
+    background-image: url(./pic-4.png);
     border: 0px;
     border-radius: 15px;
     transition: ease;
     transition-duration: 1s;
     padding: 5px;
     color: white;
+
 }
